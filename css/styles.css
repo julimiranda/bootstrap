@@ -26,13 +26,13 @@ h2 {
 }
 
 .navbar {
-padding: 0 0  4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
   font-family: 'Ubuntu';
   font-size: 2.5rem;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .navbar-item {
@@ -52,6 +52,18 @@ padding: 0 0  4.5rem;
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+}
+
+.position {
+  position: relative;
+}
+
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
 }
 
 .icons {
@@ -72,9 +84,7 @@ p {
   color: #8f8f8f;
 }
 
-#features {
-  padding: 7% 15%;
-}
+
 
 .feature-box {
   text-align: center;
@@ -88,7 +98,7 @@ p {
 }
 
 .testimonials-image {
- width: 10%;
+  width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -106,4 +116,13 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+.card-group {
+  padding: 3% 2%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
