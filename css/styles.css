@@ -127,3 +127,14 @@ p {
   padding: 100px;
   text-align: center;
 }
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
