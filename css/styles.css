@@ -26,11 +26,23 @@ p {
   line-height: 1.5;
 }
 
-/* NAVBAR */
-
+/* CONTAINERS */
 .container-fluid {
   padding: 7% 15%;
 } 
+
+/* SECTIONS */
+
+.colored-section {
+background-color: #ff4c68;
+color: #fff;
+}
+
+.white-sections {
+background-color: #fff;
+}
+
+/* NAVBAR */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -56,8 +68,7 @@ p {
 /* TITLE */
 
 #title {
-  background-color: #ff4c68;
-  color: white;
+
   text-align: left;
 }
 
@@ -111,7 +122,6 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: white;
 }
 
 .testimonial-text {
@@ -152,18 +162,12 @@ p {
 /* CTA */
 
 #cta {
-  background-color: #ff4c68;
   font-family: 'Montserrat', sans-serif;
   padding: 50px;
-  color: white;
 }
 
 
 /* FOOTER */
-
-#footer {
-  background-color: white;
-}
 
 .icones {
   margin: 20px auto 20px;
